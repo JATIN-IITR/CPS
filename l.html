@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPU Scheduling Simulator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        label, select, input {
+            margin: 5px 0;
+            display: block;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>CPU Scheduling Simulator</h1>
+    <form id="schedulingForm">
+        <label for="algorithm">Choose Scheduling Algorithm:</label>
+        <select id="algorithm">
+            <option value="fcfs">First-Come, First-Served (FCFS)</option>
+            <option value="sjf">Shortest Job First (SJF)</option>
+            <option value="priority">Priority Scheduling</option>
+            <option value="rr">Round Robin (RR)</option>
+        </select>
+
+        <label for="quantum" id="quantumLabel" style="display:none;">Time Quantum (for RR):</label>
+        <input type="number" id="quantum" min="1" style="display:none;">
+
+        <label for="processes">Enter Processes (format: burst_time,priority):</label>
+        <textarea id="processes" rows="5" cols="30" placeholder="e.g., 5,2\n3,1\n8,3"></textarea>
+
+        <button type="button" onclick="simulateScheduling()">Simulate</button>
+    </form>
+
+    <h2>Results</h2>
+    <div id="results"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
