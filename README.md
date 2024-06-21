@@ -12,7 +12,13 @@ This project is a web application CPU Scheduler designed for users to input proc
 -Responsive Design: Ensures usability across various devices with a responsive layout.
 
 # Dependencies
+C++ Compiler
 
+A Browser serving Frontend
+
+Make
+
+Git
 
 
 # Theory of Scheduling Algorithms
