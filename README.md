@@ -21,6 +21,12 @@ Make
 Git
 
 
+
+# Internal Working
+
+1. Clone the Repository
+   git clone https://github.com/JATIN-IITR/CPU-Scheduler.git
+
 # Theory of Scheduling Algorithms
 
 FCFS:
