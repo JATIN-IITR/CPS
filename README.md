@@ -16,16 +16,34 @@ C++ Compiler
 
 A Browser serving Frontend
 
-Make
-
 Git
 
 
 
 # Internal Working
 
-1. Clone the Repository
+1. **Clone the repository:**
+
+   ```bash
    git clone https://github.com/JATIN-IITR/CPU-Scheduler.git
+
+2.Setup backend:
+
+-Ensure a C++ compiler is installed on your system.
+
+Compile the backend files: 
+
+```bash
+https://github.com/JATIN-IITR/CPU-Scheduler/blob/main/main.cpp
+https://github.com/JATIN-IITR/CPU-Scheduler/tree/main/Scheduling%20Algorithm%20variants
+https://github.com/JATIN-IITR/CPU-Scheduler/blob/main/algo.cpp
+
+```
+3. Serve Frontend
+   
+   ```bash
+   https://github.com/JATIN-IITR/CPU-Scheduler/blob/main/l.html
+   ```
 
 # Theory of Scheduling Algorithms
 
